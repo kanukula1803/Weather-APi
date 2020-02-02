@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Set Title for the Page -->
+    <title>Get Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Load jQuery Script from CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Load JS functions -->
+    <script src="scripts/script.js"></script>
+  </head>
+  <body>
+    <!-- Set Heading for the Page -->
+    <header><h1>"Get Weather"</h1></header>
+
+    <!-- Create a div that holds the unordered list elements, which will be populated later -->
+    <div id="container">
+      <div id="weatherInput">
+        <input type="text" name="location" id="location" />
+        <input type="submit" value="Get Weather" id="getWeather" />
+      </div>
+      <div id="weatherOutput">
+        <div id="weatherImage"></div>
+        <h2 id="currentLocation"></h2>
+        <h3 id="latLon"></h3>
+        <h1 id="currentTemperature"></h1>
+        <h3 id="condition"></h3>
+        <h3 id="today"></h3>
+      </div>
+      <header><h1>"The Simpsons Quote Generator"</h1></header>
+
+      <!-- Create a div that holds the unordered list elements, which will be populated later -->
+      <input type="button" value="Click me!" id="newQuote" />
+      <div id="container">
+        <div id="result"></div>
+        <div id="quoteImage"></div>
+      </div>
+    </div>
+  </body>
+</html>

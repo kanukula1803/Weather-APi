@@ -1,0 +1,78 @@
+header {
+  background: #0066ff;
+  color: #ffff00;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px #000 solid;
+  margin-bottom: 10px;
+}
+
+body {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  line-height: 1.4em;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+#getWeather {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+input[type="text"],
+select {
+  width: 25%;
+  padding: 16px 32px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#weatherOutput {
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+
+#weatherImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#quoteImage {
+  float: right;
+  width: 25%;
+}
+
+#result {
+  float: left;
+  width: 75%;
+}
+
+#newQuote {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
